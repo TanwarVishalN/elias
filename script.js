@@ -7,9 +7,6 @@ jQuery(document).ready(function(){
             jQuery('.rooms__overlay--room[data-room-overlay-id="' + roomId +'"]').addClass('active');
         });
     });
-});
-
-jQuery(window).on('load', function(){
     jQuery('article.grid__item').eq(0).addClass('active');
     jQuery('.rooms__overlay--room').eq(0).addClass('active');
 });
