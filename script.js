@@ -8,3 +8,8 @@ jQuery(document).ready(function(){
         });
     });
 });
+
+jQuery(window).load(function(){
+    jQuery('article.grid__item').eq(0).addClass('active');
+    jQuery('.rooms__overlay--room').eq(0).addClass('active');
+});
